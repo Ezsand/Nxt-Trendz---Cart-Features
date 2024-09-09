@@ -80,7 +80,13 @@ class ProductItemDetails extends Component {
 
   renderLoadingView = () => (
     <div className="products-details-loader-container">
-      <Loader type="ThreeDots" color="#0b69ff" height="50" width="50" testid="" />
+      <Loader
+        type="ThreeDots"
+        color="#0b69ff"
+        height="50"
+        width="50"
+        data-testid="loader"
+      />
     </div>
   )
 
